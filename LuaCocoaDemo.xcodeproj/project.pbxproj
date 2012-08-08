@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A76CD7B15D2EEC200098CB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A76CD7915D2EEC200098CB9 /* InfoPlist.strings */; };
+		8A76CD9215D2EF3E00098CB9 /* SimpleLuaView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A76CD8C15D2EF3E00098CB9 /* SimpleLuaView-Info.plist */; };
+		8A76CD9315D2EF3E00098CB9 /* SimpleLuaView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8A76CD8E15D2EF3E00098CB9 /* SimpleLuaView.lua */; };
+		8A76CD9415D2EF3E00098CB9 /* SimpleLuaView.moon in Resources */ = {isa = PBXBuildFile; fileRef = 8A76CD8F15D2EF3E00098CB9 /* SimpleLuaView.moon */; };
+		8A76CD9515D2EF3E00098CB9 /* SimpleLuaViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76CD9115D2EF3E00098CB9 /* SimpleLuaViewAppDelegate.m */; };
+		8A76CD9815D2EF7B00098CB9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A76CD9615D2EF7B00098CB9 /* MainMenu.xib */; };
+		8A76CD9A15D2EF9D00098CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76CD9915D2EF9D00098CB9 /* main.m */; };
+		8A76CD9C15D2EFDD00098CB9 /* LuaCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A76CD9B15D2EFDD00098CB9 /* LuaCocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A76CD6915D2EE1D00098CB9 /* SimpleLuaView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLuaView-Info.plist"; sourceTree = "<group>"; };
+		8A76CD6E15D2EEC200098CB9 /* SimpleLuaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLuaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A76CD7815D2EEC200098CB9 /* SimpleLuaView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLuaView-Info.plist"; sourceTree = "<group>"; };
+		8A76CD7A15D2EEC200098CB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A76CD7E15D2EEC200098CB9 /* SimpleLuaView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleLuaView-Prefix.pch"; sourceTree = "<group>"; };
+		8A76CD8C15D2EF3E00098CB9 /* SimpleLuaView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleLuaView-Info.plist"; sourceTree = "<group>"; };
+		8A76CD8E15D2EF3E00098CB9 /* SimpleLuaView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleLuaView.lua; sourceTree = "<group>"; };
+		8A76CD8F15D2EF3E00098CB9 /* SimpleLuaView.moon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleLuaView.moon; sourceTree = "<group>"; };
+		8A76CD9015D2EF3E00098CB9 /* SimpleLuaViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLuaViewAppDelegate.h; sourceTree = "<group>"; };
+		8A76CD9115D2EF3E00098CB9 /* SimpleLuaViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLuaViewAppDelegate.m; sourceTree = "<group>"; };
+		8A76CD9715D2EF7B00098CB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8A76CD9915D2EF9D00098CB9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A76CD9B15D2EFDD00098CB9 /* LuaCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LuaCocoa.framework; path = SDKs/MacOSX10.6.sdk/Library/Frameworks/LuaCocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A76CD6B15D2EEC200098CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A76CD9C15D2EFDD00098CB9 /* LuaCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A76CD2015D2E99E00098CB9 = {
+			isa = PBXGroup;
+			children = (
+				8A76CD6915D2EE1D00098CB9 /* SimpleLuaView-Info.plist */,
+				8A76CD7615D2EEC200098CB9 /* SimpleLuaView */,
+				8A76CD3C15D2EA0500098CB9 /* Frameworks */,
+				8A76CD3A15D2EA0500098CB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A76CD3A15D2EA0500098CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A76CD6E15D2EEC200098CB9 /* SimpleLuaView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A76CD3C15D2EA0500098CB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A76CD9B15D2EFDD00098CB9 /* LuaCocoa.framework */,
+				8A76CD7215D2EEC200098CB9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A76CD7215D2EEC200098CB9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8A76CD7615D2EEC200098CB9 /* SimpleLuaView */ = {
+			isa = PBXGroup;
+			children = (
+				8A76CD8C15D2EF3E00098CB9 /* SimpleLuaView-Info.plist */,
+				8A76CD8E15D2EF3E00098CB9 /* SimpleLuaView.lua */,
+				8A76CD8F15D2EF3E00098CB9 /* SimpleLuaView.moon */,
+				8A76CD9015D2EF3E00098CB9 /* SimpleLuaViewAppDelegate.h */,
+				8A76CD9115D2EF3E00098CB9 /* SimpleLuaViewAppDelegate.m */,
+				8A76CD7715D2EEC200098CB9 /* Supporting Files */,
+			);
+			path = SimpleLuaView;
+			sourceTree = "<group>";
+		};
+		8A76CD7715D2EEC200098CB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A76CD9915D2EF9D00098CB9 /* main.m */,
+				8A76CD9615D2EF7B00098CB9 /* MainMenu.xib */,
+				8A76CD7815D2EEC200098CB9 /* SimpleLuaView-Info.plist */,
+				8A76CD7915D2EEC200098CB9 /* InfoPlist.strings */,
+				8A76CD7E15D2EEC200098CB9 /* SimpleLuaView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A76CD6D15D2EEC200098CB9 /* SimpleLuaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A76CD8815D2EEC200098CB9 /* Build configuration list for PBXNativeTarget "SimpleLuaView" */;
+			buildPhases = (
+				8A76CD6A15D2EEC200098CB9 /* Sources */,
+				8A76CD6B15D2EEC200098CB9 /* Frameworks */,
+				8A76CD6C15D2EEC200098CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLuaView;
+			productName = SimpleLuaView;
+			productReference = 8A76CD6E15D2EEC200098CB9 /* SimpleLuaView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A76CD2215D2E99E00098CB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8A76CD2515D2E99E00098CB9 /* Build configuration list for PBXProject "LuaCocoaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A76CD2015D2E99E00098CB9;
+			productRefGroup = 8A76CD3A15D2EA0500098CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A76CD6D15D2EEC200098CB9 /* SimpleLuaView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A76CD6C15D2EEC200098CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A76CD7B15D2EEC200098CB9 /* InfoPlist.strings in Resources */,
+				8A76CD9215D2EF3E00098CB9 /* SimpleLuaView-Info.plist in Resources */,
+				8A76CD9315D2EF3E00098CB9 /* SimpleLuaView.lua in Resources */,
+				8A76CD9415D2EF3E00098CB9 /* SimpleLuaView.moon in Resources */,
+				8A76CD9815D2EF7B00098CB9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A76CD6A15D2EEC200098CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A76CD9515D2EF3E00098CB9 /* SimpleLuaViewAppDelegate.m in Sources */,
+				8A76CD9A15D2EF9D00098CB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A76CD7915D2EEC200098CB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A76CD7A15D2EEC200098CB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A76CD9615D2EF7B00098CB9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A76CD9715D2EF7B00098CB9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A76CD2715D2E99E00098CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8A76CD2815D2E99E00098CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		8A76CD8915D2EEC200098CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLuaView/SimpleLuaView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SimpleLuaView/SimpleLuaView-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A76CD8A15D2EEC200098CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLuaView/SimpleLuaView-Prefix.pch";
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SimpleLuaView/SimpleLuaView-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A76CD2515D2E99E00098CB9 /* Build configuration list for PBXProject "LuaCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A76CD2715D2E99E00098CB9 /* Debug */,
+				8A76CD2815D2E99E00098CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A76CD8815D2EEC200098CB9 /* Build configuration list for PBXNativeTarget "SimpleLuaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A76CD8915D2EEC200098CB9 /* Debug */,
+				8A76CD8A15D2EEC200098CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A76CD2215D2E99E00098CB9 /* Project object */;
+}
